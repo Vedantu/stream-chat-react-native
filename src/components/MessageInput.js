@@ -179,6 +179,7 @@ const MessageInput = withSuggestionsContext(
         };
 
         componentDidMount() {
+          alert('message input mounted');
           if (this.props.editing) this.inputBox.focus();
         }
 

@@ -104,6 +104,8 @@ const ChannelList = withChatContext(
     async componentDidMount() {
       console.log('ChannelList componentDidMount');
 
+      alert('hello');
+
       await this._queryChannelsDebounced();
       this.listenToChanges();
     }

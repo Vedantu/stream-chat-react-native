@@ -246,7 +246,7 @@ export class AutoCompleteInput extends React.PureComponent {
     return (
       <InputBox
         ref={this.props.setInputBoxRef}
-        placeholder="Write your message"
+        placeholder="Write kuch bhi"
         onChangeText={(text) => {
           this.handleChange(text);
         }}
