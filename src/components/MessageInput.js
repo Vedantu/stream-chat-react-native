@@ -70,6 +70,8 @@ const AttachButtonIcon = styled.Image`
 
 const SendButton = styled.TouchableOpacity`
     margin-left: 8;
+    width: 30;
+    height: 30;
     ${({ theme }) => theme.messageInput.sendButton.css};
 `;
 
