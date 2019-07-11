@@ -19,7 +19,7 @@ import { ActionSheetCustom as ActionSheet } from 'react-native-actionsheet';
 
 import iconEdit from '../images/icons/icon_edit.png';
 import iconNewMessage from '../images/icons/icon_new_message.png';
-import iconAddAttachment from '../images/icons/plus-outline.png';
+import iconAddAttachment from '../images/icons/plus-outline@2x.png';
 import iconGallery from '../images/icons/icon_attach-media.png';
 import iconFolder from '../images/icons/icon_folder.png';
 import iconClose from '../images/icons/icon_close.png';
@@ -51,9 +51,9 @@ const InputBoxContainer = styled.View`
     flex-direction: row;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 20px;
     min-height: 46;
     margin: 10px;
+    margin-bottom: 20px;
     align-items: center;
     ${({ theme }) => theme.messageInput.inputBoxContainer.css};
 `;
