@@ -51,9 +51,8 @@ const InputBoxContainer = styled.View`
     flex-direction: row;
     padding-left: 10px;
     padding-right: 10px;
-    min-height: 46;
+    min-height: 46px;
     margin: 10px;
-    margin-bottom: 20px;
     align-items: center;
     ${({ theme }) => theme.messageInput.inputBoxContainer.css};
 `;
@@ -64,8 +63,8 @@ const AttachButton = styled.TouchableOpacity`
 `;
 
 const AttachButtonIcon = styled.Image`
-    width: 15;
-    height: 15;
+    width: 25;
+    height: 25;
     ${({ theme }) => theme.messageInput.attachButtonIcon.css};
 `;
 

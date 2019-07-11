@@ -3,7 +3,8 @@ import styled from '@stream-io/styled-components';
 import PropTypes from 'prop-types';
 
 const InputBox = styled.TextInput`
-  max-height: 80px;
+  max-height: 60px;
+  min-height: 40px;
   margin: -5px;
   flex: 1;
   ${({ theme }) => theme.messageInput.inputBox.css}
