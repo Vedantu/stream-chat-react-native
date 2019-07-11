@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const InputBox = styled.TextInput`
   max-height: 60px;
-  margin: -5px;
+  margin: 5px;
   flex: 1;
   ${({ theme }) => theme.messageInput.inputBox.css}
 `;
@@ -246,7 +246,7 @@ export class AutoCompleteInput extends React.PureComponent {
     return (
       <InputBox
         ref={this.props.setInputBoxRef}
-        placeholder="Write kuch bhi"
+        placeholder="Write your message"
         onChangeText={(text) => {
           this.handleChange(text);
         }}

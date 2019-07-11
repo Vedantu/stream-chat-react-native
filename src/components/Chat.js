@@ -59,8 +59,6 @@ export const Chat = themed(
     }
 
     componentWillUnmount() {
-      alert('chat open');
-
       this._unmounted = true;
       this.props.client.off('connection.recovered');
       this.props.client.off('connection.changed');
