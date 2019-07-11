@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const InputBox = styled.TextInput`
   max-height: 60px;
-  margin: 5px;
+  margin: -5px;
   flex: 1;
   ${({ theme }) => theme.messageInput.inputBox.css}
 `;

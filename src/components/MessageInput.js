@@ -51,6 +51,7 @@ const InputBoxContainer = styled.View`
     flex-direction: row;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 20px;
     min-height: 46;
     margin: 10px;
     align-items: center;
@@ -178,7 +179,6 @@ const MessageInput = withSuggestionsContext(
                 };
 
                 componentDidMount() {
-                    alert('message input mounted');
                     if (this.props.editing) this.inputBox.focus();
                 }
 
