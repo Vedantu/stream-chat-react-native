@@ -18,7 +18,7 @@ import { ActionSheetCustom as ActionSheet } from 'react-native-actionsheet';
 // import iconMedia from '../images/icons/icon_attach-media.png';
 
 import iconEdit from '../images/icons/icon_edit.png';
-import iconNewMessage from '../images/icons/icon_new_message_2.png';
+import iconNewMessage from '../images/icons/icon_new_message.png';
 import iconAddAttachment from '../images/icons/plus-outline-2.png';
 import iconGallery from '../images/icons/icon_attach-media.png';
 import iconFolder from '../images/icons/icon_folder.png';
