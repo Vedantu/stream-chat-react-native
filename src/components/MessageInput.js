@@ -63,8 +63,8 @@ const AttachButton = styled.TouchableOpacity`
 `;
 
 const AttachButtonIcon = styled.Image`
-    width: 25;
-    height: 25;
+    width: 22;
+    height: 22;
     ${({ theme }) => theme.messageInput.attachButtonIcon.css};
 `;
 
@@ -96,7 +96,7 @@ const MessageInput = withSuggestionsContext(
 
                 static defaultProps = {
                     hasImagePicker: true,
-                    hasFilePicker: true,
+                    hasFilePicker: false,
                 };
 
                 getMessageDetailsForState = (message) => {
